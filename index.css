@@ -39,6 +39,7 @@ h1 {
     text-align: center;
     width: 300px;
     margin: auto;
+    padding: 20px 0px;
     border-radius: 5%;
     color: #7fa5d8;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -47,10 +48,17 @@ h1 {
 
 #parentDiv {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 p {
     text-align: center;
-    color: #ebebeb;
+    color: #000000;
+}
+
+.child {
+    width: 600px;
+    background-color: rgb(235, 252, 250);
+    box-shadow: -15px 15px 30px rgb(0, 46, 59);
+    padding: 20px;
 }
