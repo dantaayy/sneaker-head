@@ -24,7 +24,6 @@ Images:
 */
 * {
     /* This will outline each section to see what is being updated */
-    outline: 1px solid red !important;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -62,5 +61,6 @@ p {
     width: 600px;
     background-color: rgb(235, 252, 250);
     box-shadow: -15px 15px 30px rgb(0, 46, 59);
+    border-radius: 8px;
     padding: 20px;
 }
