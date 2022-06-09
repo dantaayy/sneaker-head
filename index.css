@@ -25,11 +25,14 @@ Images:
 * {
     /* This will outline each section to see what is being updated */
     outline: 1px solid red !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
     background-color: #e8e7e7;
     background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Jumpman_logo.svg/1200px-Jumpman_logo.svg.png");
+    margin: auto;
+    position: relative;
 }
 
 h1 {
@@ -38,6 +41,7 @@ h1 {
     margin: auto;
     border-radius: 5%;
     color: #8fb3e1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #parentDiv {
