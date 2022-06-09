@@ -22,3 +22,25 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+* {
+    /* This will outline each section to see what is being updated */
+    outline: 1px solid red !important;
+}
+
+body {
+    background-color: #e8e7e7;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Jumpman_logo.svg/1200px-Jumpman_logo.svg.png");
+
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid grey;
+    width: 300px;
+    margin: auto;
+}
+
+#parentDiv {
+    display: flex;
+    justify-content: space-between;
+}
