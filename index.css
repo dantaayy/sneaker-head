@@ -29,7 +29,7 @@ Images:
 }
 
 body {
-    background-color: #e8e7e7;
+    background-color: #b9b9b9;
     background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Jumpman_logo.svg/1200px-Jumpman_logo.svg.png");
     margin: auto;
     position: relative;
@@ -40,11 +40,17 @@ h1 {
     width: 300px;
     margin: auto;
     border-radius: 5%;
-    color: #8fb3e1;
+    color: #7fa5d8;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px black;
 }
 
 #parentDiv {
     display: flex;
     justify-content: space-between;
+}
+
+p {
+    text-align: center;
+    color: #ebebeb;
 }
